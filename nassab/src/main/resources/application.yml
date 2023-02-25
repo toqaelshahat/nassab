@@ -1,0 +1,11 @@
+server:
+    port: 8081
+spring:
+    application:
+        name: nassab
+    data:
+        mongodb:
+            database: customerDB
+            user: Admin
+            password: 123_Abcdef
+            uri: mongodb+srv://Admin:123_Abcdef@cluster0.lwhvbdx.mongodb.net/?retryWrites=true&w=majority
